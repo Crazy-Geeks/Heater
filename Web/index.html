@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable=0">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="style.css" />
+    <!--<script defer src="script.js"></script>-->
+    <!-- <style></style> -->
+    <style>
+        .button {
+            width: 10%;
+            height: 40px;
+        }
+        
+        .footer {
+            position: fixed;
+            /* Фиксированное положение */
+            left: 0;
+            bottom: 0;
+            /* Левый нижний угол */
+            padding: 10px;
+            /*Поля вокруг текста */
+            font-size: 15pt;
+            background: rgb(53, 56, 63);
+            /*Цвет фона */
+            color: azure;
+            /*Цвет текста */
+            width: 100%;
+            /* Ширина слоя */
+        }
+    </style>
+    <title>Heat</title>
+</head>
+
+<body>
+    <center>
+        <h1> Control panel </h1>
+        <form id='_play' method='GET' action='/start'>
+            <p><button type='submit' class="button">START</button></p>
+        </form>
+        <form id='_settings' method='GET' action='/settings'>
+            <p><button type='submit' class="button">SETTINGS</button></p>
+        </form>
+
+        <div class="footer">&copy; Crazy_Geeks, 2020</div>
+
+    </center>
+
+</body>
+
+</html>
